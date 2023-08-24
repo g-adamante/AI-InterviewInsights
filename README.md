@@ -2,6 +2,8 @@
 
 This project provides an easy-to-use interface for generating concise reports from Google Meet recordings of customer interviews. By using this tool, you can automatically transcribe and summarize your recorded interviews without the need for manual efforts.
 
+[You can try the tool by following this link](https://auto-interview-report.netlify.app/) or by running it locally.
+
 ## Features:
 
 - Convert Google Meet MP4 recordings to MP3 audio files using FFmpeg (WebAssembly version).
