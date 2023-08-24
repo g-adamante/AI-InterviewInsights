@@ -26,7 +26,7 @@ This project provides an easy-to-use interface for generating concise reports fr
 
 ## Limitations:
 
-- The recommended size for the video file is up to 1 hour.
+- The recommended size for the video file is up to 30 minutes.
 - Ensure the video file is in MP4 format.
 
 ## Privacy:
