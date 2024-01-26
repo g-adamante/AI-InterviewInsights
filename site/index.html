@@ -109,12 +109,12 @@ function showResult() {
 
 async function summarizeTranscript(transcript) {
   const token = document.getElementById("api-token").value;
-  const model = "gpt-4";
+  const model = "gpt-4-turbo";
 
   const payload = {
     model,
     messages: [
-      { role: "system",
+      { role: "user",
         content: "Summarize the transcript according to this template: top takeaways: - list top 3 takeaways from the interview; background: - add details about the customer (demographics, industry, role, experience with your product); Use cases: - list the customer\'s use cases for your product or service; Observations: highlight problems, takeaways, and opportunities you observed during the interview; { for each problem } Problem: - takeaway: - opportunities: { end for }"
       },
       {
